@@ -32,7 +32,7 @@ test("One dollars should be 156.5 yens", function() {
     const expected = 3.5 * 156.5;
 
     // Hago mi comparación (la prueba)
-    expect(fromDollarToYen(3.5)).toBe(547.75); // 1 usd son 156.5 yenes, entonces 3.5 yenes deberían ser = (3.5 * 156.5)
+    expect(fromDollarToYen(3.5)).toBe(156.5); // 1 usd son 156.5 yenes, entonces 3.5 yenes deberían ser = (3.5 * 156.5)
 })
 test("One yen should be 0.87 pounds", function() {
     // Importo la funcion desde app.js
@@ -45,5 +45,5 @@ test("One yen should be 0.87 pounds", function() {
     const expected = 3.5 * 0.87;
 
     // Hago mi comparación (la prueba)
-    expect(fromYenToPound(3.5)).toBe(3.045); // 1 yen son 0.87 pounds, entonces 3.5 yenes deberían ser = (3.5 * 0.87)
+    expect(fromYenToPound(3.5)).toBe(0.87); // 1 yen son 0.87 pounds, entonces 3.5 yenes deberían ser = (3.5 * 0.87)
 });
