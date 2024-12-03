@@ -12,7 +12,7 @@ const fromEuroToDollar = (euros)=> {
 // Declaramos una función con el nombre exacto "fromDollarToYen"
 const fromDollarToYen = (dollars) => {
     const euros = dollars / oneEuroIs.USD;  
-    const yenes = euros * oneEuroIs.JPY;
+    const yenes = euros * oneEuroIs.yenes;
     return yenes
 
 };
